@@ -1,0 +1,65 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ytname
+  {
+    width: 100%;
+    height:100px;
+    background: rgb(223,230,233,0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ytname a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right:20px;
+    background: #d63031;
+  }
+  .ytname img{
+    border-radius:50%;
+    margin-right: 15px;
+  }
+  .ytmenus
+  {
+    width:100%;
+    height:50px;
+    background: rgba(223,230,233,0.2);
+    padding:0px 100px ;
+  }
+.ytmenus a{
+    text-decoration: none;
+    color: #636e72;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+.ytmenus a:frist-child
+{
+    border-radius: 2px solid;
+    
+}
+/* .ytmenus button{
+    border-radius: 3px;
+    width:100px;
+} */
+.ytmenus a:hover{
+  color: black;
+}
+.ytvideo
+{
+    width: 100% ;
+    background: rgba(223,230,233,0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.ytvideo > div
+{
+  flex-basis: 50%;
+}
